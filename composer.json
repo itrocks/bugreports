@@ -1,0 +1,25 @@
+{
+	"authors":      [{ "email": "baptiste@pillot.fr", "name": "Baptiste Pillot" }],
+	"config": {
+		"component-dir": "vendor/components"
+	},
+	"description":  "it.rocks bug-reports",
+	"extra": {
+		"installer-paths": {
+			"{$vendor}/":         ["type:itrocks-core"],
+			"{$vendor}/{$name}/": ["type:itrocks"]
+		},
+		"installer-types": ["itrocks", "itrocks-core"]
+	},
+	"license":           "MIT",
+	"minimum-stability": "dev",
+	"name":              "itrocks/bugreports",
+	"prefer-stable":     true,
+	"repositories": [{ "type": "composer", "url": "https://packages.bappli.com" }],
+	"require":      {
+		"php":               ">=5.6",
+		"ext-mysqli":        "*",
+		"itrocks/framework": "master"
+	},
+	"type": "itrocks-final"
+}

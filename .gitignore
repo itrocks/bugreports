@@ -1,0 +1,16 @@
+.DS_Store
+/.buildpath
+/.git
+/.idea
+/.project
+/.settings
+
+/cache
+/vendor
+
+/itrocks/framework
+
+/composer.lock
+/loc.php
+/pwd.php
+/update
