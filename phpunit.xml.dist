@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<phpunit
+	backupGlobals="false"
+	bootstrap="itrocks/framework/console_script.php"
+	colors="false"
+	convertErrorsToExceptions="true"
+	convertNoticesToExceptions="true"
+	convertWarningsToExceptions="true"
+	processIsolation="false"
+	stopOnFailure="false"
+	syntaxCheck="true"
+	verbose="true"
+>
+	<filter>
+		<whitelist addUncoveredFilesFromWhitelist="true">
+			<directory suffix=".php">bappli</directory>
+			<directory suffix=".php">itrocks</directory>
+		</whitelist>
+	</filter>
+	<testsuite name="it.rocks bug-reports">
+		<directory>itrocks</directory>
+	</testsuite>
+</phpunit>

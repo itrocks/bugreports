@@ -1,5 +1,5 @@
 {
-	"authors":      [{ "email": "baptiste@pillot.fr", "name": "Baptiste Pillot" }],
+	"authors": [{ "email": "baptiste@pillot.fr", "name": "Baptiste Pillot" }],
 	"config": {
 		"component-dir": "vendor/components"
 	},
@@ -16,7 +16,7 @@
 	"name":              "itrocks/bugreports",
 	"prefer-stable":     true,
 	"repositories": [{ "type": "composer", "url": "https://packages.bappli.com" }],
-	"require":      {
+	"require": {
 		"ext-apache":        "*",
 		"ext-curl":          "*",
 		"ext-dom":           "*",
