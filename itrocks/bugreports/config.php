@@ -32,7 +32,7 @@ $config['ITRocks/Bugreports'] = [
 
 	//----------------------------------------------------------------------- NORMAL priority plugins
 	Priority::NORMAL => [
-		//Framework\User\Access_Control::class,
+		Framework\User\Access_Control::class,
 		Framework\User\Group\Admin_Plugin::class,
 		Framework\Dao::class => [
 			Framework\Dao::LINKS_LIST => [
